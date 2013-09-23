@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://getbootstrap.com/examples/jumbotron-narrow/ -->
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<!--<link rel="shortcut icon" href="<favicon.png></favicon.png>">-->
+
+		<title>Logs for MarkLogic</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="http://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="../../assets/js/html5shiv.js"></script>
+		<script src="../../assets/js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="container">
+			<div class="header">
+				<ul class="nav nav-pills pull-right">
+					<li class="active">
+						<a href="/index.html">Search</a>
+					</li>
+					<li>
+						<a href="/analisis">Analisis</a>
+					</li>
+					<li>
+						<a href="/settings">Settings</a>
+					</li>
+				</ul>
+				<h3 class="text-muted">Log4ML</h3>
+			</div>
+
+			<div class="row">
+				<form role="form">
+					<div class="form-group col-lg-10">
+						<input type="text" class="form-control" id="search" placeholder="Keyword">
+					</div>
+					<div class="col-lg-2">
+						<button class="btn btn-primary">
+							Search
+						</button>
+					</div>
+				</form>
+			</div>
+
+			<div class="row">
+				<fieldset >
+					<legend>
+						Filters:
+					</legend>
+					<div class="col-lg-6">
+						<div class="form-group">
+							<label for="from" class="col-lg-4">Date from</label>
+							<div class="col-lg-8">
+								<input type="text" class="form-control" id="from" placeholder="From">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="event" class="col-lg-4">Event</label>
+							<div class="col-lg-8">
+								<input type="text" class="form-control" id="event" placeholder="Event">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="form-group">
+							<label for="from" class="col-lg-4">Date to</label>
+							<div class="col-lg-8">
+								<input type="text" class="form-control" id="from" placeholder="To">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="event" class="col-lg-4">Results</label>
+							<div class="col-lg-8">
+								<input type="number" class="form-control" id="event" placeholder="Max results">
+							</div>
+						</div>
+					</div>
+				</fieldset>
+			</div>
+
+			<hr />
+			<div>
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th></th>
+							<th>Date</th>
+							<th>Event</th>
+							<th>Info</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><input type="checkbox" checked="checked" /></td>
+							<td>2013-09-17 07:58:53.187</td>
+							<td>Warning</td>
+							<td>Hung 5098 sec</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox"  /></td>
+							<td>2013-09-18 07:58:53.187</td>
+							<td>Info</td>
+							<td>Hung 3 sec</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div align="center">
+				<ul class="pagination">
+					<li>
+						<a href="#">&laquo;</a>
+					</li>
+					<li>
+						<a href="#">1</a>
+					</li>
+					<li>
+						<a href="#">2</a>
+					</li>
+					<li>
+						<a href="#">3</a>
+					</li>
+					<li>
+						<a href="#">4</a>
+					</li>
+					<li>
+						<a href="#">5</a>
+					</li>
+					<li>
+						<a href="#">&raquo;</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="row">
+				<textarea class="col-lg-12"  rows="6" style="background-color: gray;">Sample text</textarea>
+			</div>
+
+			<div class="footer">
+				<p>
+					© Developers GIT 2013
+				</p>
+			</div>
+
+		</div>
+		<!-- /container -->
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+
+	</body>
+</html>
